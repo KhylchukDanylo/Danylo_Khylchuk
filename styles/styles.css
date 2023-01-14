@@ -14,7 +14,7 @@ body {
 .main-content {
   background-color: #fff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
+  padding: 60px 90px;
 }
 
 .sidebar {
@@ -52,8 +52,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
-  width: 400px;
 }
 
 /* project styles */
@@ -74,6 +72,15 @@ body {
 .project-list {
   padding: 0;
   margin-left: 15px;
+  /* list-style-type: none; */
+}
+
+.text__for--project {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
 }
 
 .project-item {
@@ -184,6 +191,8 @@ body {
   color: #ffffff;
   padding: 0;
   margin-left: 17px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .sinebar-title {
@@ -214,6 +223,7 @@ body {
 
 .tech-skills-item {
   color: #fb6d3a;
+  flex-basis: 50%;
 }
 
 .tech-skills-text {
