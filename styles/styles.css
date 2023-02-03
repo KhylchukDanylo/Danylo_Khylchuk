@@ -183,11 +183,11 @@ body {
   margin-left: 40px;
 }
 
-.phone-number {
-  display: flex;
+.contact-item {
+  color: #fb6d3a;
 }
 .contacts {
-  margin-bottom: 50px;
+  margin-left: 20px;
 }
 
 .contacts:nth-of-type() {
@@ -225,7 +225,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  color: #ffffff;
 }
 
 .tech-skills-item {
