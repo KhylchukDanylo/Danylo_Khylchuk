@@ -183,8 +183,15 @@ body {
   margin-left: 40px;
 }
 
+.phone-number {
+  display: flex;
+}
 .contacts {
   margin-bottom: 50px;
+}
+
+.contacts:nth-of-type() {
+  margin-right: 15px;
 }
 
 .tech-skills-list {
