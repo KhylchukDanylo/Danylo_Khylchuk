@@ -8,17 +8,19 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1000px;
-  margin: 0 auto;
+  margin: 60px auto 0 auto;
+  padding-bottom: 60px;
+  background-color: #fff;
 }
 
 .main-content {
-  background-color: #fff;
+  /* background-color: #fff; */
   /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
   padding: 10px 20px;
 }
 
 .sidebar {
-  background-color: #fff;
+  /* background-color: #fff; */
   /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
   border-right: solid 2px #1e2939;
   padding-top: 40px;
@@ -249,4 +251,20 @@ body {
 
 .list {
   margin-left: 17px;
+}
+.nfd {
+  width: 1000px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+.nfd__text {
+  padding: 30px 20px;
+  width: 590px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
