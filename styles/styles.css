@@ -257,11 +257,11 @@ body {
   background-color: white;
   margin: 0 auto;
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 .nfd__text {
   padding: 30px 20px;
-  width: 590px;
+  width: 900px;
   margin: 0;
   font-style: normal;
   font-weight: 400;
