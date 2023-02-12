@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans";
   background-color: #f5f7fa;
 }
 /* main styles */
@@ -30,7 +30,7 @@ body {
 /* about styles */
 
 .about {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .about-positio {
@@ -48,7 +48,7 @@ body {
   font-size: 45px;
   line-height: 55px;
   color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .about-description {
@@ -179,12 +179,15 @@ body {
   width: 200px;
   margin: 0 85px 0 85px;
   border-radius: 30%;
-  /* margin-bottom: 40px; */
+  margin-bottom: 40px;
 }
 
 .contacts,
 .tech-skills {
   margin-left: 40px;
+}
+.conteiner {
+  margin-bottom: 40px;
 }
 .projects-item,
 .contact-item {
@@ -262,9 +265,10 @@ body {
 .nfd__text {
   padding: 30px 20px;
   width: 900px;
+  color: #ababab;
   margin: 0;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 24px;
 }
